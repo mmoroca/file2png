@@ -1,4 +1,6 @@
-# 💾 png2bin v3.0
+# 💾 file2png v3.0
+
+![file2png]([http://url/to/img.png](https://raw.githubusercontent.com/mmoroca/file2png/refs/heads/main/file2png.png))
 
 ***
 
@@ -24,7 +26,7 @@ Ensure you have Python 3 and the **Pillow** library installed:
 
 The script is run from the command line. The tool automatically detects whether you are encoding or decoding based on the file extension.
 
-`python png2bin.py <source> <destination>`
+`python file2png.py <source> <destination>`
 
 #### Parameters
 
@@ -37,15 +39,15 @@ The script is run from the command line. The tool automatically detects whether 
 
 1.  **Encode a document (Any File → PNG)**
     *Compresses `contract.pdf`, converts it to bits, and saves the image.*
-    `python png2bin.py contract.pdf secure_image.png`
+    `python file2png.py contract.pdf secure_image.png`
 
 2.  **Encode an existing ZIP (ZIP → PNG)**
     *Detects it is already a ZIP and reads bytes directly.*
-    `python png2bin.py backup.zip visual_backup.png`
+    `python file2png.py backup.zip visual_backup.png`
 
 3.  **Decode (PNG → Folder)**
     *Reads the image, extracts the internal ZIP, and saves content to `recovered_files` folder.*
-    `python png2bin.py secure_image.png ./recovered_files`
+    `python file2png.py secure_image.png ./recovered_files`
 
 ***
 
@@ -71,7 +73,7 @@ Asegúrate de tener Python 3 y la librería **Pillow** instalados:
 
 El script se ejecuta desde la línea de comandos. La herramienta detecta automáticamente si estás codificando o decodificando según la extensión del archivo.
 
-`python png2bin.py <origen> <destino>`
+`python file2png.py <origen> <destino>`
 
 #### Parámetros
 
@@ -84,12 +86,12 @@ El script se ejecuta desde la línea de comandos. La herramienta detecta automá
 
 1.  **Codificar un documento (Cualquier archivo → PNG)**
     *Comprime `contrato.pdf`, lo convierte a bits y guarda la imagen.*
-    `python png2bin.py contrato.pdf imagen_segura.png`
+    `python file2png.py contrato.pdf imagen_segura.png`
 
 2.  **Codificar un ZIP existente (ZIP → PNG)**
     *Detecta que ya es un ZIP y lee los bytes directamente.*
-    `python png2bin.py copia_seguridad.zip backup_visual.png`
+    `python file2png.py copia_seguridad.zip backup_visual.png`
 
 3.  **Decodificar (PNG → Carpeta)**
     *Lee la imagen, extrae el ZIP interno y guarda el contenido en la carpeta `recuperados`.*
-    `python png2bin.py imagen_segura.png ./recuperados`
+    `python file2png.py imagen_segura.png ./recuperados`
