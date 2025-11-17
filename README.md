@@ -1,6 +1,6 @@
 # 💾 file2png v3.0
 
-![file2png]([http://url/to/img.png](https://raw.githubusercontent.com/mmoroca/file2png/refs/heads/main/file2png.png))
+![file2png](https://raw.githubusercontent.com/mmoroca/file2png/refs/heads/main/file2png.png)
 
 ***
 
